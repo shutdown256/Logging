@@ -17,22 +17,22 @@ namespace ShutDown256.Extensions.Logging {
 
             switch (level) {
                 case LogLevel.Trace:
-                    logger.LogTrace(ex, f, args);
+                    logger.LogTrace(eventId, ex, f, args);
                     break;
                 case LogLevel.Debug:
-                    logger.LogDebug(ex, f, args);
+                    logger.LogDebug(eventId, ex, f, args);
                     break;
                 case LogLevel.Information:
-                    logger.LogInformation(ex, f, args);
+                    logger.LogInformation(eventId, ex, f, args);
                     break;
                 case LogLevel.Warning:
-                    logger.LogWarning(ex, f, args);
+                    logger.LogWarning(eventId, ex, f, args);
                     break;
                 case LogLevel.Error:
-                    logger.LogError(ex, f, args);
+                    logger.LogError(eventId, ex, f, args);
                     break;
                 case LogLevel.Critical:
-                    logger.LogCritical(ex, f, args);
+                    logger.LogCritical(eventId, ex, f, args);
                     break;
             }
         }
