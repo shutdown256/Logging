@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShutDown256.Extensions.Logging", "ShutDown256.Extensions.Logging\ShutDown256.Extensions.Logging.csproj", "{042ECA4F-1C08-4A45-AB89-62C36050B5A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShutDown256.Extensions.Logging.Demo", "ShutDown256.Extensions.Logging.Demo\ShutDown256.Extensions.Logging.Demo.csproj", "{5917C4FF-3B6B-4EFF-B296-3FC7B1977142}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{042ECA4F-1C08-4A45-AB89-62C36050B5A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{042ECA4F-1C08-4A45-AB89-62C36050B5A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{042ECA4F-1C08-4A45-AB89-62C36050B5A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5917C4FF-3B6B-4EFF-B296-3FC7B1977142}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5917C4FF-3B6B-4EFF-B296-3FC7B1977142}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5917C4FF-3B6B-4EFF-B296-3FC7B1977142}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5917C4FF-3B6B-4EFF-B296-3FC7B1977142}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
